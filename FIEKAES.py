@@ -21,6 +21,7 @@ class FIEKAES():
             print("Dekriptimi eshte kryer me sukses")
         else:
             print("Gabim gjate dekriptimit")
+            
     #Arianiti
     def enkripto(self, teksti):
         teksti = self._pad(teksti)
