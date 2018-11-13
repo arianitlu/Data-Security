@@ -5,7 +5,7 @@ class FIEKAES():
     from Crypto.Cipher import AES
     #Blendi
     def __init__(self): 
-        self.bs = 32
+        self.bs = 16
         self.qelesi = self.qelesi()
         
     def qelesi(self):
